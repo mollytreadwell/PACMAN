@@ -14,10 +14,12 @@ The images alternate between right-facing open and closed mouths as PacMan is mo
 
 The next part of my PacMan plan is to make him move both horizontally AND vertically. This will include extra images (mouth open facing down, mouth closed facing down, mouth open facing up, mouth closed facing up) that will give the project more authenticity to the original game.
 
-###### How You Can Help!
+#### How You Can Help!
 
 Feel free to contact me for more information and how you can contribute to this fun project.
+
 EMAIL: mhtreadwell718@gmail.com
+
 LINKEDIN: Molly Treadwell
 
 ###### This project is lisenced by Massachusetts Institute of Technology 

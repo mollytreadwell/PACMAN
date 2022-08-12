@@ -16,16 +16,6 @@ var direction = 0;
 // This variable helps determine which PacMan image should be displayed. It flips between values 0 and 1
 var focus = 0;
 
-// This function makes the image go no further than the browser page width before turning around.
-function checkPageBounds(direction, imgWidth) {
-if(direction === 0 && pos > pageWidth) {
-  direction = 1;
-} if(direction === 0 && pos <= 0) {
-  direction = 0;
-}
-return direction;
-}
-
 // This function is called on mouse click. Every time it is called, it updates the PacMan image, position and direction on the screen.
 function Run() {
   let img = document.getElementById('PacMan');
@@ -44,7 +34,13 @@ function Run() {
 
 setInterval(Run, 200);
 
+function checkPageBounds(direction, imgWidth) {
+if(direction === 0 && pos > pageWidth) {
+  direction = 1;
+} if(direction === 0 && pos <= 0) {
+  direction = 0;
+}
+return direction;
+}
 
-
-//Please do not change
 module.exports = checkPageBounds;
